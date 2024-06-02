@@ -4,5 +4,18 @@
 // utility in the flutter_test package. For example, you can send tap and scroll
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
+import 'package:flutter_test/flutter_test.dart';
+import 'package:memes/domain/usecases/fetch_meme_use_case.dart';
 
-void main() {}
+import 'repositories/mock_result_repositories.dart';
+
+void main() {
+  test("Fetch memes test ", () async {
+    //Mock data
+    final fetchMemeUseCase = FetchMemeUseCase(MockMemesRepository());
+    final result = await fetchMemeUseCase.execute();
+
+    // Verify that data has created.
+    expect(result.data?.memes?.length, 3);
+  });
+}

@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": {
+    "memes": [
+      {
+        "id": "80707627",
+        "name": "Sad Pablo Escobar",
+        "url": "https://i.imgflip.com/1c1uej.jpg",
+        "width": 720,
+        "height": 709,
+        "box_count": 3,
+        "captions": 198500
+      },
+      {
+        "id": "252600902",
+        "name": "Always Has Been",
+        "url": "https://i.imgflip.com/46e43q.png",
+        "width": 960,
+        "height": 540,
+        "box_count": 2,
+        "captions": 181500
+      },
+      {
+        "id": "188390779",
+        "name": "Woman Yelling At Cat",
+        "url": "https://i.imgflip.com/345v97.jpg",
+        "width": 680,
+        "height": 438,
+        "box_count": 2,
+        "captions": 352250
+      }
+    ]
+  }
+}
